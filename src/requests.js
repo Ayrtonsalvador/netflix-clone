@@ -1,4 +1,4 @@
-const API_KEY = "b7f73dab20eb8e5b985d94ca67a9a009";
+const API_KEY = SECRET_API_KEY;
 
 const requests = {
     fetchTrendingNow: `/trending/all/day?api_key=${API_KEY}`,
